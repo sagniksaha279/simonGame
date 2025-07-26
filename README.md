@@ -65,8 +65,8 @@ If you're not sure how to play the game, watch this video:
 
 ---
 
-## 👥 Made By 
--💡 Sagnik Saha  
+## 👥 Made By - Sagnik Saha  
+
 ---
 
 ## 📢 Credits
