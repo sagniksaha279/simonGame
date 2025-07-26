@@ -65,10 +65,6 @@ If you're not sure how to play the game, watch this video:
 
 ---
 
-## 👥 Made By - Sagnik Saha  
-
----
-
 ## 📢 Credits
 
 - 🎵 `bgMusic.mp3` – Royalty-free background music
@@ -82,5 +78,5 @@ If you're not sure how to play the game, watch this video:
 This project is open-source and free to use for learning and development. Please give credit to the original team.
 
 ---
-
+### Made with ❤️ & code by Sagnik Saha... 
 Enjoy the game and test your memory! 🧠✨
