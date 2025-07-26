@@ -2,8 +2,6 @@
 
 A fun and interactive web-based **Simon Game** inspired by the classic memory game. Test your memory and reflexes by repeating the color sequences and see how far you can go! 🎯
 
-![Game Logo](tech_riders_logo.jpg)
-
 ## 🧠 Game Objective
 Repeat the color pattern that the game generates. Each level adds a new color to the sequence. If you press the wrong color, the game ends. Try to beat your highest score!
 
