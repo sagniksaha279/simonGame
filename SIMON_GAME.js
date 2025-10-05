@@ -7,6 +7,7 @@ let started = false;
 let level = 0;
 let h2 = document.querySelector("h2");
 let h3 = document.querySelector("h3");
+let startBtn = document.querySelector(".startGame");
 const soundGameOver = new Audio("gameOver.wav");
 
 //Background Music
@@ -31,7 +32,8 @@ musicBtn.addEventListener("click", () => {
     isMusicPlaying = !isMusicPlaying;
 });
 
-document.addEventListener("keypress",function(){
+
+startBtn.addEventListener("click",function(){
     if(!started){
         started = true;
         startMusic();
@@ -52,7 +54,7 @@ function levelUp(){
     h2.innerText = `Level ${level}`;
 
     //Any random button
-    let randomIndex = Math.floor(Math.random() * 3);
+    let randomIndex = Math.floor(Math.random() * 4);
     let randomColor = btns[randomIndex];
     let randomBtn = document.querySelector(`.${randomColor}`);
 
@@ -68,7 +70,7 @@ function checkButton(idx){
             setTimeout(levelUp,1000);
     }else{
         stopMusic();
-        h2.innerHTML = `Game Over! Your score was: <b> ${level} </b> <br> Press any key to restart`;
+        h2.innerHTML = `Game Over! Your score was: <b> ${level} </b> <br> Press again to restart`;
         highestScore = Math.max(level,highestScore);
 
         h3.innerHTML = `Your highest score is: ${highestScore}`;
